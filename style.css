@@ -102,25 +102,39 @@ section{
     grid-column-gap: 15px;
     grid-row-gap: 15px;
 }
-.details-div{
-    padding: 15px;
-}
 .transfer{
     width: 312px;
     height: 362px;
     border: 2px solid rgb(211, 211, 211);
     border-radius: 12px;
 }
-.transfer-details{
+.thumbnail{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
-.transfer-details i{
-    font-weight: 400px;
-    font-size: 16px;
-    color: rgba(22, 22, 22, 0.7);
+.left-image{
+    margin-right: 30px;
 }
-.transfer-comment{
-    margin-left: 20px;
+.right-image{
+    margin-left: 30px;
+}
+.vs{
+    font-size: 25px;
+    font-weight: 200px;
+}
+.details-div{
+    margin-top: 40px;
+    text-align: center;
+}
+.details-div h3{
+    font-size: 20px;
+    font-weight: 200px;
+}
+.details-div p{
+    font-size: 15px;
 }
 footer{
     width: 1600px;
